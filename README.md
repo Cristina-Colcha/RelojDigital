@@ -34,7 +34,7 @@ Open your browser and go to http://localhost:5001 to see the watch in action.
 ## Using the Docker image from Docker Hub
     If you want to use the Docker Hub image:
 
-    Download image from Docker Hub:
+* Download image from Docker Hub:
     The container is configured to run on port 5001 you can use the image with the following message
 
     docker pull cristinacolcha/reloj:latest
