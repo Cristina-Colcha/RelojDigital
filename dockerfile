@@ -1,17 +1,13 @@
-# Usa la imagen oficial de Python como base
+# Uses the official Python image as a basis
 FROM python:3.9-slim
-
-# Establece el directorio de trabajo en el contenedor
+# Set the working directory in the container
 WORKDIR /app
-
-# Copia los archivos necesarios al contenedor
+# Copy the necessary files to the container
 COPY . /app
-
-# Instala las dependencias necesarias
+# Install the necessary dependencies
 RUN pip install --no-cache-dir -r requirements.txt
-
-# Expón el puerto en el que tu aplicación Flask estará corriendo
+# Expose the port that your Flask application will be running on
 EXPOSE 5001
+# Run the Flask application
+CMD [“python”, “app.py”]
 
-# Ejecuta la aplicación Flask
-CMD ["python", "app.py"]

@@ -6,8 +6,8 @@ This project is a simple web application developed in Python using the Flask fra
     │
     ├── app.py # Flask application main code.
     ├─── templates/
-    │ └└─── index.html # HTML page displaying the clock.
-    └└─── README.md # Project instructions.
+    │ └─── index.html # HTML page displaying the clock.
+    └─── README.md # Project instructions.
 ## Installation
 ### Prerequisites.
 Python 3.x: Make sure you have Python 3.x installed.
