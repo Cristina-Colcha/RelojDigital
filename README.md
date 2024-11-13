@@ -31,7 +31,13 @@ Open your browser and go to http://localhost:5001 to see the watch in action.
     Flask: Lightweight framework for creating web applications.
     HTML and CSS: For structuring and styling the web page.
     JavaScript: To update the time on the clock every second.
-## Author
-Author: Cristina Colcha
+## Using the Docker image from Docker Hub
+    If you want to use the Docker Hub image:
+
+    Download image from Docker Hub:
+    The container is configured to run on port 5001 you can use the image with the following message
+
+    docker pull cristinacolcha/reloj:latest
+
 This README is organized in a single block with all the detailed information, and each section is clearly described for quick understanding.
 
